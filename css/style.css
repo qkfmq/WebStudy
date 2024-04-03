@@ -24,6 +24,12 @@ div#ootd {
     color: red;
     background-color: cyan;
 }
+div#login_form{
+    text-align: center;
+}
+div#login_form input{
+    display: inline-block;
+}
 p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
