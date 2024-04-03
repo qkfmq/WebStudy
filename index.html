@@ -4,47 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>웹 스터디 :::</title>
-    <style>
-        div {
-            display: inline-block;
-            border-top:solid 4px gray;
-            border-left:solid 4px gray;
-            border-right:solid 4px black;
-            border-bottom:solid 4px red;
-            margin: 5px;
-            padding: 10px 30px 10px 30px;
-            width: 300px;
-        }
-        div.contents {
-            background-color: gold;
-        }
-        div#ootd {
-            background-color: cyan;
-        }
-        p {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
     <h1> 웹 화면 구현 수업의 웹스터디</h1>
     <h2>김민태</h2>
-    <p>하나의 문단을 작성할 때는 p 태그를 사용합니다</p>
+    <p>하나의 문단을 작성할 때는 <em>p 태그</em>를 사용합니다</p>
     <p>안녕하세요, <br>
-        코딩 공부하기 좋은 날입니다.
+        <strong>코딩 공부</strong>하기 좋은 날입니다. <br><br>
+        <i class="fa-brands fa-tiktok fa-2xl" style="color: #e52424;"></i>
+        <i class="fa-brands fa-facebook fa-spin fa-2xl" style="color: #74C0FC;"></i>
     </p>
     <hr>
     <div class="contents">
-        <p>영화 소개</p>
-        <p>영화를 소개하는 부분입니다</p>
+        <dl>
+        <dt>영화 소개</dt>
+        <dt>영화를 소개하는 부분입니다</dt>
+        <dt>영화에 종류로 액션,코미디,공포등이 있습니다</dt>
+        <dt>영화 형식으로 흑백,무성,단편,장편,3-D가 있습니다</dt>
+        </dl>
+        <img src="https://flexible.img.hani.co.kr/flexible/normal/896/1280/imgdb/original/2024/0224/20240224500280.jpg" alt="파묘">
     </div>
     <div id="ootd">
-        <p>오늘의패션</p>
-        <p>오늘의 패션/코디를 소개하는 부분입니다</p>
+        <dl>
+        <dt >오늘의 패션</dt>
+        <dt>오늘의 패션/코디를 소개하는 부분입니다</dt>
+        <dt>오늘의 패션은 이것입니다</dt>
+        <dt>오늘의 코디는 이것입니다</dt>
+        <dt>자 어땠나요</dt>
+        <img src="https://flexible.img.hani.co.kr/flexible/normal/896/1280/imgdb/original/2024/0224/20240224500280.jpg" alt="파묘">
+        
+        </dl>
     </div>
     <div class="contents">
-        <p>넷플릭스 소개</p>
-        <p>넷플릭스 시리즈 소개하는 부분입니다.</p>
+        <dl>
+        <dt>넷플릭스 소개</dt>
+        <dt>넷플릭스 시리즈 소개하는 부분입니다.</dt>
+        <dt>오늘의 시리즈 첫번째 오징어 게임입니다</dt>
+        <dt>오늘의 시리즈 두번째 이상한 변호사 우영우입니다</dt>
+        <img src="https://flexible.img.hani.co.kr/flexible/normal/896/1280/imgdb/original/2024/0224/20240224500280.jpg" alt="파묘">
+        
+        </dl>   
     </div>
+    
 </body>
 </html>
